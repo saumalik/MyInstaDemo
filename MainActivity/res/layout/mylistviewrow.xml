@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/relativeLayout1"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:padding="5dip">
+
+    <ImageView
+    	android:layout_width="90dip"
+    	android:layout_height="90dip"
+    	android:id="@+id/imgViewStand"
+    	android:src="@drawable/icon"
+    	android:layout_alignParentLeft="true"
+    	android:layout_centerInParent="true"
+    	android:scaleType="center">
+    </ImageView>
+    
+     <ImageView
+    	android:layout_width="50dip"
+    	android:layout_height="50dip"
+    	android:id="@+id/imgViewLow"
+    	android:src="@drawable/icon"
+    	android:layout_alignParentLeft="true"
+    	android:layout_centerInParent="true"
+    	android:layout_marginLeft="100dp">
+    </ImageView>
+
+    
+
+</LinearLayout>
